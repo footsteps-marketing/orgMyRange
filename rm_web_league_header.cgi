@@ -113,8 +113,8 @@ $shop_city_state = "$shop_city, $shop_state" ;
 
 print <<WEB ;
 
-	<div id="wrapper">
-	  <div id="header">
+	<div id="header">
+	  <div id="container">
 		<span class="left">
 		  <!-- $home_path = the Home parameter from the booking_paramaters table -->
 		  <!-- $logo = the Logo parameter from the booking_paramaters table -->
