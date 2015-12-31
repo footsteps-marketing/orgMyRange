@@ -1,59 +1,42 @@
 /* line 1, ../scss/style.scss */
-/* line 2, ../scss/style.scss */
 #wrapper {
-  width: 960px;
-  max-width: 100%;
   margin: auto;
+  max-width: 100%;
+  width: 960px;
 }
 
-/* line 8, ../scss/style.scss */
-/* line 9, ../scss/style.scss */
+/* line 6, ../scss/style.scss */
 #header .left {
   float: left;
   padding: 15px;
 }
 
-/* line 12, ../scss/style.scss */
-/* line 14, ../scss/style.scss */
+/* line 10, ../scss/style.scss */
 #header .right {
   float: right;
   padding: 15px;
   text-align: right;
 }
 
-/* line 16, ../scss/style.scss */
-/* line 20, ../scss/style.scss */
+/* line 15, ../scss/style.scss */
 #header .right label[for="location"] {
   display: block;
 }
 
-/* line 20, ../scss/style.scss */
-/* line 24, ../scss/style.scss */
+/* line 18, ../scss/style.scss */
 #header .right .address .zip,
 #header .right .address .street {
   display: block;
 }
 
-/* line 25, ../scss/style.scss */
-/* line 29, ../scss/style.scss */
+/* line 22, ../scss/style.scss */
 #header .right .section {
   float: left;
   margin: 0 15px 15px 0;
 }
 
-/* line 31, ../scss/style.scss */
-/* line 34, ../scss/style.scss */
+/* line 26, ../scss/style.scss */
 #header .hours-box span:after {
   content: '\A';
   white-space: pre;
-}
-
-@media (max-width: 767px) {
-  /* line 42, ../scss/style.scss */
-  /* line 41, ../scss/style.scss */
-  #header .left.section,
-  #header .right.section {
-    float: none;
-    text-align: center;
-  }
 }
