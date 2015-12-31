@@ -80,7 +80,7 @@ function showGo(v){
 </script>
 
 </head>
-<body bgcolor="#ffffff" text="black" oncontextmenu="return false;" onload="noBack();loadwindow()" onpageshow="if (event.persisted) noBack();" onunload="" >
+<body oncontextmenu="return false;" onload="noBack();loadwindow()" onpageshow="if (event.persisted) noBack();" onunload="" >
 <!--
 <form name="myform" id="myform" method="get" action="" onSubmit="return checkform();">
 <input type="hidden" name="cartid" value="$cartid">

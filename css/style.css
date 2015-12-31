@@ -33,12 +33,14 @@ body {
 #content {
   background: #ffffff;
   border: solid 0px #e6e6e6;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   padding: 10px 20px 20px 20px;
   width: 920px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.6);
 }
 
-/* line 35, ../scss/style.scss */
+/* line 37, ../scss/style.scss */
 #title-left h1 {
   background: none repeat scroll 0 0 #404040;
   border-bottom: 1px solid #EC1C24;
@@ -50,7 +52,7 @@ body {
   padding: 0 15px;
 }
 
-/* line 45, ../scss/style.scss */
+/* line 47, ../scss/style.scss */
 #title-left h2 {
   background: none repeat scroll 0 0 #ffffff;
   border-bottom: 1px solid #EC1C24;
@@ -62,7 +64,7 @@ body {
   padding: 0 15px;
 }
 
-/* line 55, ../scss/style.scss */
+/* line 57, ../scss/style.scss */
 #title-line_yc {
   border-bottom: 0px solid #EBEBEF;
   display: none;
@@ -71,20 +73,20 @@ body {
   width: 0px;
 }
 
-/* line 62, ../scss/style.scss */
+/* line 64, ../scss/style.scss */
 .left-content {
   float: left;
   margin-bottom: 0px;
   width: 670px;
 }
 
-/* line 67, ../scss/style.scss */
+/* line 69, ../scss/style.scss */
 .add_header {
   margin-top: 5px;
   padding-left: 20px;
 }
 
-/* line 71, ../scss/style.scss */
+/* line 73, ../scss/style.scss */
 .button {
   background-color: #fff;
   border: 1px solid red;
@@ -100,7 +102,7 @@ body {
   width: 175px;
 }
 
-/* line 85, ../scss/style.scss */
+/* line 87, ../scss/style.scss */
 .button2 {
   background-color: yellow;
   border: 2px solid #006600;
@@ -114,7 +116,7 @@ body {
   webkit-border-radius: 5px;
 }
 
-/* line 97, ../scss/style.scss */
+/* line 99, ../scss/style.scss */
 .button3 {
   background-color: orange;
   border: 2px solid #006600;
@@ -128,12 +130,12 @@ body {
   webkit-border-radius: 5px;
 }
 
-/* line 109, ../scss/style.scss */
+/* line 111, ../scss/style.scss */
 .button:hover {
   background-color: #ff0000;
 }
 
-/* line 112, ../scss/style.scss */
+/* line 114, ../scss/style.scss */
 #background {
   left: 0;
   min-height: 100%;
@@ -143,7 +145,7 @@ body {
   z-index: -1;
 }
 
-/* line 120, ../scss/style.scss */
+/* line 122, ../scss/style.scss */
 .clear {
   clear: both;
   display: block;
@@ -152,61 +154,61 @@ body {
   width: 100%;
 }
 
-/* line 127, ../scss/style.scss */
+/* line 129, ../scss/style.scss */
 #back a {
   color: #006600;
   text-decoration: underline;
 }
 
-/* line 131, ../scss/style.scss */
+/* line 133, ../scss/style.scss */
 #back {
   margin-left: 90%;
 }
 
-/* line 134, ../scss/style.scss */
+/* line 136, ../scss/style.scss */
 .img_content {
   padding: 0 0 0 175px;
   position: relative;
 }
 
-/* line 138, ../scss/style.scss */
+/* line 140, ../scss/style.scss */
 .img_content img {
   left: 0;
   position: absolute;
   top: 0;
 }
 
-/* line 143, ../scss/style.scss */
+/* line 145, ../scss/style.scss */
 #header .left {
   float: left;
   padding: 15px;
 }
 
-/* line 147, ../scss/style.scss */
+/* line 149, ../scss/style.scss */
 #header .right {
   float: right;
   padding: 15px;
   text-align: right;
 }
 
-/* line 152, ../scss/style.scss */
+/* line 154, ../scss/style.scss */
 #header .right label[for="location"] {
   display: block;
 }
 
-/* line 155, ../scss/style.scss */
+/* line 157, ../scss/style.scss */
 #header .right .address .zip,
 #header .right .address .street {
   display: block;
 }
 
-/* line 159, ../scss/style.scss */
+/* line 161, ../scss/style.scss */
 #header .right .section {
   float: left;
   margin: 0 15px 15px 0;
 }
 
-/* line 163, ../scss/style.scss */
+/* line 165, ../scss/style.scss */
 #header .hours-box span:after {
   content: '\A';
   white-space: pre;
