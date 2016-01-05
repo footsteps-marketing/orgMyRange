@@ -1,9 +1,19 @@
+/* line 1, ../scss/style.scss */
+#wrapper {
+  margin: auto;
+  max-width: 100%;
+  width: 960px;
+}
+
+/* line 6, ../scss/style.scss */
 #header .left {
   float: left;
   padding: 0;
 }
+/* line 10, ../scss/style.scss */
 #header .right {
   float: right;
+  /*padding: 15px;*/
   padding-bottom: 10px;
   padding-top: 15px;
   padding-right: 35px;
@@ -16,6 +26,7 @@
   text-align: right;
 }
 
+/* line 15, ../scss/style.scss */
 #header .right label[for="location"] {
   display: block;
 }

@@ -1,0 +1,344 @@
+<html lang="en">
+    <head>
+        <title>Archery Training and Classes|Archery Headquarters</title>
+    </head>
+<body oncontextmenu="return false;" onload="noBack();loadwindow()" onpageshow="if (event.persisted) noBack();" onunload="" bgcolor="#ffffff" text="#000000">
+
+
+
+
+  
+
+<link rel="stylesheet" type="text/css" href="demo_files/ata_style.css">
+<link rel="stylesheet" type="text/css" href="demo_files/style.css">
+<link rel="stylesheet" type="text/css" href="demo_files/footsteps.css">
+
+<style>
+body {
+  font-size: 16px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #666;
+  padding: 0 0 30px;
+}
+
+#rm_header {
+	/*clear: both;*/
+	margin: 0 auto;
+  /*width: 920px;*/
+  background: #854d26;
+  padding: 0;
+  color: white ;
+  border-top: solid 0px #e6e6e6;
+}
+
+#rm_header h2 {
+  font-size: 22px!important;
+  background: none repeat scroll 0 0 #404040;
+  height: 30px;
+  border-bottom: 1px solid #EC1C24;
+  line-height: 30px !important;
+  color: #FFFFFF !important;
+  margin: 20px 0 10px;
+  padding: 0 15px;
+}
+
+#content {
+  background: #ffffff;
+  padding: 10px 20px 20px 20px;
+  border: solid 0px #e6e6e6;
+  margin: 0 auto;
+  width: 920px;
+}
+
+#title-left {
+	clear:both;
+  /*padding-bottom: 20px;*/
+}
+
+#title-left h1 {
+  font-size: 22px!important;
+  background: none repeat scroll 0 0 #854d26;
+  height: 30px;
+  border-bottom: 1px solid #EC1C24;
+  line-height: 30px !important;
+  color: #d9b28a !important;
+  margin: 20px 0 10px;
+  padding: 0 15px;
+}
+
+#title-left h2 {
+  font-size: 22px!important;
+  background: none repeat scroll 0 0 #ffffff;
+  height: 30px;
+  border-bottom: 1px solid #EC1C24;
+  line-height: 30px !important;
+  color: #006600 !important;
+  margin: 20px 0 10px;
+  padding: 0 15px;
+}
+
+#title-line_yc {
+  display: none;
+  height: 0px;
+  margin-left: -20px;
+  width: 0px;
+  border-bottom: 0px solid #EBEBEF;
+}
+
+.left-content {
+  float: left;
+  width: 670px;
+  margin-bottom: 0px;
+}
+
+
+
+.add_header{
+	margin-top: 5px;
+	padding-left: 20px;
+}
+
+.button{
+    margin-top:10px;
+    margin-left:10px;
+    padding:2px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border:1px solid red;
+    background-color:#fff;
+    /*background-image:  url(../../green.png) ;*/
+    color:#000;
+    font-weight:bold;
+	font-size: medium ;
+	width: 175px;
+}
+
+.button2{
+    margin-top:10px;
+    margin-left:10px;
+    padding:2px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border:2px solid #006600;
+    background-color:yellow;
+    /*background-image:  url(../../green.png) ;*/
+    color:#000;
+    font-weight:bold;
+}
+.button3{
+    margin-top:10px;
+    margin-left:10px;
+    padding:2px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border:2px solid #006600;
+    background-color:orange;
+    /*background-image:  url(../../green.png) ;*/
+    color:#000;
+    font-weight:bold;
+}
+
+.button:hover {
+   background-color:#ff0000;
+}
+
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  width: 100%;
+}
+
+#back a {
+    color: #006600;
+    text-decoration: underline ;
+}
+
+#back {
+	margin-left: 90% ;
+}
+.img_content {
+	padding: 0 0 0 175px; /* 175px being the width of the thumbnail(150) + how much space you want to put between it and your text */
+	position: relative; /* So the thumbnail is relative to this */
+}
+.img_content img {
+	left: 0;
+	position: absolute;
+	top: 0;
+	}
+</style>
+
+<script>
+function loadwindow(){
+	//alert("cartid " + document.myform.cartid.value)
+}
+
+function checkform(){
+	return true;
+}
+
+function checkclose(){
+	var frm = document.getElementById("close");
+	frm.submit();
+}
+
+function empty(){
+	var r = confirm("Are you sure you want to empty your cart?")
+	if (r == true){
+		var frm = document.getElementById("emptycart");
+		frm.submit();
+	}
+	return false
+}
+
+function reloadPage()
+{
+	var frm = document.getElementById("foo");
+	frm.submit();
+}
+</script>
+
+<script type="text/javascript">
+    window.history.forward();
+    function noBack() { window.history.forward(); }
+</script>
+
+<script>
+function submit_promo(){
+	var frm = document.getElementById("addpromo");
+	frm.submit();
+}
+function checkpromo(){
+	return true ;
+}
+function showGo(v){
+	 var n = v.length;
+	if (n > 0){
+		document.getElementById("HideGo").style.display="inline"
+	}
+	else{
+		document.getElementById("HideGo").style.display="none"
+	}
+}
+</script>
+
+
+
+<!--
+<form name="myform" id="myform" method="get" action="" onSubmit="return checkform();">
+<input type="hidden" name="cartid" value="14390">
+<input type="hidden" name="cartnum" value="07291f071451924054">
+-->
+
+<!--<img id="background" src="http://archeryacademy.com/wp-content/uploads/2012/09/background.jpg" alt="" class="bgwidth">-->
+
+<div id="all-web">
+
+											<div class="dynamic-row dynamic-row-2 has-color has-bg-color ">
+							<div class="container">
+								<div class="row">
+									<div id="fsm_logo_widget-7" class="widget_fsm_logo_widget   no_title col-md-4 widget-alignleft widget-height-flexible widget-borders-off block-container"><div class="block"><a><img src="demo_files/Archery-HQ-logo-sidebyside.png" alt="Archery Headquarters" class="logo"></a></div></div><div id="fsm_location_widget-5" class="widget_fsm_location_widget   no_title col-md-4 widget-alignleft widget-height-flexible widget-borders-off block-container"><div class="block"><ul data-match="dOYDlAX6" data-count="1" class="fsm_list fsm_locations hours  fsm_dOYDlAX6"><li class="fsm_location archery-headquarters"><div class="hours-box"><label><strong>Hours:</strong></label><meta itemprop="openingHours" content="Mo-Fr 10:00 a.m. - 9:00 p.m."><span class="day">Mon - Fri:</span><span class="hours">10:00 a.m. - 9:00 p.m.</span><meta itemprop="openingHours" content="Sa 9:00 a.m. - 5:00 p.m."><span class="day">Saturday:</span><span class="hours">9:00 a.m. - 5:00 p.m.</span><meta itemprop="openingHours" content="Su Closed"><span class="day">Sunday:</span><span class="hours">Closed</span></div></li></ul></div></div><div id="fsm_location_widget-3" class="widget_fsm_location_widget   no_title col-md-2 widget-alignleft widget-height-flexible widget-borders-off block-container"><div class="block"><ul data-match="nRblkcRv" data-count="1" class="fsm_list fsm_locations address  fsm_nRblkcRv"><li class="fsm_location archery-headquarters"><div class="address" itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress"><label><strong>Address:</strong></label> <span class="street" itemprop="streetAddress">6401 W Chandler Blvd</span><span class="city" itemprop="addressLocality">Chandler</span>, <span class="state" itemprop="addressRegion">AZ</span> <span class="zip" itemprop="postalCode">85226</span></div></li></ul></div></div><div id="fsm_location_widget-14" class="widget_fsm_location_widget   no_title col-md-2 widget-alignleft widget-height-flexible widget-borders-off block-container"><div class="block"><ul data-match="gZguJW6K" data-count="1" class="fsm_list fsm_locations phone  fsm_gZguJW6K"><li class="fsm_location archery-headquarters"><div class="phone"><label><strong>Phone:</strong></label> <span itemprop="telephone">(480) 961-3100</span></div></li></ul></div></div>
+								</div>
+							</div>
+						</div>
+
+<div id="content">
+<!--<span id="back"><a href="javascript:window.close();">Close</a></span>-->
+<div id="title-left">
+<!--<h1>Lessons Offered</h1>-->
+<h2>Your Cart: $0.00</h2>
+</div>
+
+<div id="title-line_yc"></div>
+
+
+		<div class="img_content">
+		<img src="demo_files/LessonsGeneric4Featured.jpg" alt="" height="150" width="150">
+		<p><strong>Intro to Archery</strong><br>This introductory lesson will 
+give you a solid understanding of the basics of archery. Whether you are
+ an aspiring Olympian or just looking for a new backyard family sport, 
+this is your place to get started.</p>
+	<a class="button-shortcode  footsteps" href="http://orgmyrange.com/ahq/cgi-bin/rm_web_leagues.cgi?league=30&amp;cartid=14390"><span> Saturdays 8 and up 130-230pm </span></a><br><a class="button-shortcode  footsteps" href="http://orgmyrange.com/ahq/cgi-bin/rm_web_leagues.cgi?league=31&amp;cartid=14390"><span> Thursdays 18+ 730-830pm  </span></a><br><a class="button-shortcode  footsteps" href="http://orgmyrange.com/ahq/cgi-bin/rm_web_leagues.cgi?league=41&amp;cartid=14390"><span> Monday 8+ 430+530pm </span></a><br><a class="button-shortcode  footsteps" href="http://orgmyrange.com/ahq/cgi-bin/rm_web_leagues.cgi?league=42&amp;cartid=14390"><span> Thursday 8+ 430-530pm </span></a><br><a class="button-shortcode  footsteps" href="http://orgmyrange.com/ahq/cgi-bin/rm_web_leagues.cgi?league=47&amp;cartid=14390"><span> Saturday 18+ 6-7pm </span></a><br><a class="button-shortcode  footsteps" href="http://orgmyrange.com/ahq/cgi-bin/rm_web_leagues.cgi?league=43&amp;cartid=14390"><span> Friday 8+ 430-530pm </span></a><br><a class="button-shortcode  footsteps" href="http://orgmyrange.com/ahq/cgi-bin/rm_web_leagues.cgi?league=54&amp;cartid=14390"><span> Tuesday 8+ 6-7pm </span></a><br><a class="button-shortcode  footsteps" href="http://orgmyrange.com/ahq/cgi-bin/rm_web_leagues.cgi?league=56&amp;cartid=14390"><span> Wednesday 8+ 6-7pm </span></a><br></div><br><br>
+		<div class="img_content">
+		<img src="demo_files/LessonsGeneric3Featured.jpg" alt="" height="150" width="150">
+		<p><strong>Archery 101 Classes</strong><br>This six week program is 
+designed to introduce you to the basics.  Each week we introduce a new 
+aspect of technique that will help you establish a solid foundation for 
+your shot. </p>
+	<a class="button-shortcode  footsteps" href="http://orgmyrange.com/ahq/cgi-bin/rm_web_leagues.cgi?league=32&amp;cartid=14390"><span> 101 8+ Saturdays12-1 </span></a><br><a class="button-shortcode  footsteps" href="http://orgmyrange.com/ahq/cgi-bin/rm_web_leagues.cgi?league=34&amp;cartid=14390"><span> 101 8+ Thursdays 6-7 </span></a><br><a class="button-shortcode  footsteps" href="http://orgmyrange.com/ahq/cgi-bin/rm_web_leagues.cgi?league=35&amp;cartid=14390"><span> 101 8-18 Wed 430-530 </span></a><br><a class="button-shortcode  footsteps" href="http://orgmyrange.com/ahq/cgi-bin/rm_web_leagues.cgi?league=36&amp;cartid=14390"><span> 101 18+ Wed 730-830 </span></a><br><a class="button-shortcode  footsteps" href="http://orgmyrange.com/ahq/cgi-bin/rm_web_leagues.cgi?league=53&amp;cartid=14390"><span> 101 8+ Tuesday 430-530 </span></a><br></div><br><br>
+		<div class="img_content">
+		<img src="demo_files/ArchHQ-IndoorRangeFeatured.jpg" alt="" height="150" width="150">
+		<p><strong>Archery 201 Classes</strong><br>This program is for 
+students who have previously taken the 101 lessons. We will begin to 
+prepare you to shoot in tournaments and leagues with the confidence of a
+ champion. A minimum score is required to take this course.</p>
+	<a class="button-shortcode  footsteps" href="http://orgmyrange.com/ahq/cgi-bin/rm_web_leagues.cgi?league=17&amp;cartid=14390"><span> Saturdays 8+ 1030-1130am </span></a><br></div><br><br>
+		<div class="img_content">
+		<img src="demo_files/ArchHQ-IndoorRangeFeatured.jpg" alt="" height="150" width="150">
+		<p><strong>Junior Olympic Archery Development/Adult Archery Achievement</strong><br>Come enjoy a night of archery with friends and fun! Develop your skills in a fun environment and score for achievement awards!</p>
+	<a class="button-shortcode  footsteps" href="http://orgmyrange.com/ahq/cgi-bin/rm_web_leagues.cgi?league=13&amp;cartid=14390"><span> JOAD Fridays 530-7 </span></a><br><a class="button-shortcode  footsteps" href="http://orgmyrange.com/ahq/cgi-bin/rm_web_leagues.cgi?league=14&amp;cartid=14390"><span> AAA Mondays 715-845 </span></a><br><a class="button-shortcode  footsteps" href="http://orgmyrange.com/ahq/cgi-bin/rm_web_leagues.cgi?league=20&amp;cartid=14390"><span> JOAD/AAA Saturdays 830-10 </span></a><br></div><br><br>
+		<div class="img_content">
+		<img src="demo_files/ChildShootingFeatured.jpg" alt="" height="150" width="150">
+		<p><strong>Summer Camp</strong><br>Summer is always a great time to 
+try something new! Escape from the heat in our indoor archery range! 
+Spend some time with family and friends learning the fun and exciting 
+sport of archery! Once School is out this Camp will fill quickly. Click 
+the button below for more information!</p>
+	<a class="button-shortcode  footsteps" href="http://orgmyrange.com/ahq/cgi-bin/rm_web_leagues.cgi?league=37&amp;cartid=14390"><span> Sign Up Today </span></a><br></div><br><br>
+		<div class="img_content">
+		<img src="demo_files/LessonsGeneric2Featured.jpg" alt="" height="150" width="150">
+		<p><strong>Intro To Bowhunting Camp</strong><br>Interested in 
+bowhunting? Interested in teaching the family how to hunt Arizonas 
+beautiful yet rugged terrain? Learn how in this Intro To Bowhunting 
+Camp.</p>
+	<a class="button-shortcode  footsteps" href="http://orgmyrange.com/ahq/cgi-bin/rm_web_leagues.cgi?league=39&amp;cartid=14390"><span> Click to Schedule </span></a><br></div><br><br>
+		<div class="img_content">
+		<img src="demo_files/ArchHQ-PapagoFeatured.jpg" alt="" height="150" width="150">
+		<p><strong>Papago </strong><br>Distance shooting at beautiful Papago Archery Park! This class is for AHQA's more Advanced Archers who are looking to compete.</p>
+	<a class="button-shortcode  footsteps" href="http://orgmyrange.com/ahq/cgi-bin/rm_web_leagues.cgi?league=11&amp;cartid=14390"><span> Click to Sign Up </span></a><br></div><br><br>
+		<div class="img_content">
+		<img src="demo_files/BowServicesFeatured.jpg" alt="" height="150" width="150">
+		<p><strong>Bow Tuning 101</strong><br>Ever wanted to learn how to tune
+ your own bow? This course will show you everything you need to know to 
+get your bow shooting bullets!</p>
+	<a class="button-shortcode  footsteps" href="http://orgmyrange.com/ahq/cgi-bin/rm_web_leagues.cgi?league=49&amp;cartid=14390"><span> Sunday 12-5pm </span></a><br></div><br><br>
+		<div class="img_content">
+		<img src="demo_files/ArchHQ-CosmicArcheryFeatured.jpg" alt="" height="150" width="150">
+		<p><strong>Cosmic Archery</strong><br>That’s right! It’s exactly what you think it is, COSMIC ARCHERY!  </p>
+	<a class="button-shortcode  footsteps" href="http://orgmyrange.com/ahq/cgi-bin/rm_web_leagues.cgi?league=40&amp;cartid=14390"><span> Book Now </span></a><br></div><br><br><!--</form>-->
+<!--<span id="back"><a href="javascript:window.close();">Close</a></span>-->
+</div>
+</div>
+
+
+<form id="emptycart" name="emptycart" action="rm_web_cart_empty.cgi" method="get">
+<input name="cartid" value="14390" type="hidden">
+<input name="cartnum" value="07291f071451924054" type="hidden">
+</form>
+
+<form id="close" name="close" action="rm_web_cart_review.cgi" method="get">
+<input name="cartid" value="14390" type="hidden">
+<input name="cartnum" value="07291f071451924054" type="hidden">
+</form>
+
+<form id="foo" name="foo" action="rm_web_league_home.cgi?cartid=14390" method="get">
+</form>
+
+
+
+
+
+</body></html>
