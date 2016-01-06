@@ -119,7 +119,7 @@ print <<WEB ;
 		  <!-- $home_path = the Home parameter from the booking_paramaters table -->
 		  <!-- $logo = the Logo parameter from the booking_paramaters table -->
 		  <a href="$home_path" class="logo">
-			<img alt="" src="$home_path/site-info/company-logo" /></a>
+			<img alt="" src="$logo" /></a>
         </div>
 		<div class="right">
 WEB
